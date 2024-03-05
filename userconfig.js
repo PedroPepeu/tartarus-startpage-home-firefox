@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Recife, Recife',
     scale: "C",
   },
   clock: {
@@ -75,14 +75,26 @@ const default_config = {
             icon_color: "#a9b665",
           },
           {
+            name: "go",
+            url: "https://online-go.com",
+            icon: "chess-queen-filled",
+            icon_color: "#a9b665",
+          },
+          {
             name: "monkeytype",
             url: "https://monkeytype.com/",
             icon: "keyboard",
             icon_color: "#e78a4e",
           },
           {
+            name: "KeyBr",
+            url: "https://www.keybr.com/",
+            icon: "keyboard",
+            icon_color: "#e78a4e",
+          },
+          {
             name: "tetris",
-            url: "https://tetris.com/",
+            url: "https://jstris.jezevec10.com/",
             icon: "brand-apple-arcade",
             icon_color: "#ea6962",
           },
@@ -100,6 +112,24 @@ const default_config = {
             name: "primevideo",
             url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
             icon: "brand-amazon",
+            icon_color: "#7daea3",
+          },
+          {
+            name: "netflix",
+            url: "https://www.netflix.com/",
+            icon: "brand-amazon",
+            icon_color: "#7daea3",
+          },
+          {
+            name: "star+",
+            url: "https://www.starplus.com/home",
+            icon: "brand-amazon",
+            icon_color: "#7daea3",
+          },
+          {
+            name: "hbo",
+            url: "https://auth.max.com/profile-picker?flow=login",
+            icon: "brand-hbo",
             icon_color: "#7daea3",
           },
         ],
@@ -195,7 +225,7 @@ const default_config = {
           links: [
             {
               name: "github",
-              url: "https://github.com/",
+              url: "https://github.com/PedroPepeu",
               icon: "brand-github",
               icon_color: "#7daea3",
             },
@@ -263,6 +293,36 @@ const default_config = {
               icon: "code-asterix",
               icon_color: "#a9b665",
             },
+            {
+              name: "codeforces",
+              url: "https://codeforces.com/",
+              icon: "code-asterix",
+              icon_color: "#a9b665",
+            },
+            {
+              name: "spoj",
+              url: "https://www.spoj.com",
+              icon: "code-asterix",
+              icon_color: "#a9b665",
+            },
+            {
+              name: "neps",
+              url: "https://neps.academy/br/dashboard",
+              icon: "code-asterix",
+              icon_color: "#a9b665",
+            },
+            {
+              name: "leetcode",
+              url: "https://leetcode.com/problemset/",
+              icon: "code-leetcode",
+              icon_color: "#a9b665",
+            },
+            {
+              name: "Planilha",
+              url: "https://docs.google.com/spreadsheets/d/1NDEG0epZgV_ZpyjTvRpNLXUfvpuzFY2b/edit?pli=1#gid=483020044",
+              icon: "code-asterix",
+              icon_color: "#a9b665",
+            },
           ],
         },
       ],
@@ -277,6 +337,12 @@ const default_config = {
             {
               name: "gmail",
               url: "https://mail.google.com/mail/u/0/",
+              icon: "brand-gmail",
+              icon_color: "#ea6962",
+            },
+            {
+              name: "outlook",
+              url: "https://outlook.office.com/mail/",
               icon: "brand-gmail",
               icon_color: "#ea6962",
             },
@@ -303,6 +369,12 @@ const default_config = {
               icon: "photo-filled",
               icon_color: "#ea6962",
             },
+            {
+              name: "onedrive",
+              url: "https://onedrive.live.com/?gologin=1",
+              icon: "brand-onedrive",
+              icon_color: "#7daea3",
+            },
           ],
         },
         {
@@ -312,6 +384,18 @@ const default_config = {
               name: "linkedin",
               url: "https://www.linkedin.com/feed/",
               icon: "brand-linkedin",
+              icon_color: "#7daea3",
+            },
+            {
+              name: "teams",
+              url: "https://teams.microsoft.com/_",
+              icon: "brand-teams",
+              icon_color: "#7daea3",
+            },
+            {
+              name: "office",
+              url: "https://www.office.com/?auth=2",
+              icon: "brand-office",
               icon_color: "#7daea3",
             },
           ],
